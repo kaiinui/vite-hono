@@ -1,0 +1,7 @@
+{
+	"$schema": "https://unpkg.com/wrangler@latest/config-schema.json",
+	"name": "vite-hono",
+	"main": "src/api/index.ts",
+	"compatibility_date": "2025-03-10",
+	"compatibility_flags": ["nodejs_compat", "nodejs_compat_populate_process_env"]
+}
