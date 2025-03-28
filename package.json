@@ -7,8 +7,7 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "tsc --noEmit && biome check ./src",
-		"preview": "vite preview",
-		"deploy": "bunx wrangler deploy"
+		"deploy": "bun run build && bunx wrangler deploy"
 	},
 	"dependencies": {
 		"hono": "^4.7.5",
